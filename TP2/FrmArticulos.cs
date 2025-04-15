@@ -14,6 +14,7 @@ namespace TP2
 {
     public partial class FrmArticulos : Form
     {
+        private List<Articulo> listaArticulos;
         public FrmArticulos()
         {
             InitializeComponent();
@@ -36,14 +37,37 @@ namespace TP2
 
                 /// DataGridView
                 ArticuloNegocio negocio = new ArticuloNegocio();
-                dgvArticulos.DataSource = negocio.Listar();
+                listaArticulos = negocio.Listar();
+                dgvArticulos.DataSource = listaArticulos;
                 dgvArticulos.Columns["Descripcion"].Width = 150; // Ajusto ancho columna Descripcion
                 dgvArticulos.Columns["Id"].Visible = false; // Oculto Columna Id
                 dgvArticulos.Columns["UrlImagen"].Visible = false; // Oculto Columna ImagenUrl
+
+                /// PictureBox
+                pbxArticulo.Load(listaArticulos[0].UrlImagen.ToString()); // Cargo imagen
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
+                //throw;
+            }
+        }
+
+        private void dgvArticulos_SelectionChanged(object sender, EventArgs e)
+        {
+            Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+            cargarImagen(seleccionado.UrlImagen.ToString());
+        }
+
+        private void cargarImagen(string imagen)
+        {
+            try
+            {
+                pbxArticulo.Load(imagen);
+            }
+            catch (Exception ex)
+            {
+                pbxArticulo.Load("https://static.vecteezy.com/system/resources/thumbnails/008/695/917/small_2x/no-image-available-icon-simple-two-colors-template-for-no-image-or-picture-coming-soon-and-placeholder-illustration-isolated-on-white-background-vector.jpg");
                 //throw;
             }
         }

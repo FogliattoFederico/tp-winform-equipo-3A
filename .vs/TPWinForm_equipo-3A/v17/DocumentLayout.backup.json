@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|c:\\users\\ale\\desktop\\git\\tp-winform-equipo-3a\\tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|c:\\users\\ale\\desktop\\git\\tp-winform-equipo-3a\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|c:\\users\\ale\\desktop\\git\\tp-winform-equipo-3a\\tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|c:\\users\\ale\\desktop\\git\\tp-winform-equipo-3a\\negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|solutionrelative:negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|c:\\users\\ale\\desktop\\git\\tp-winform-equipo-3a\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|solutionrelative:negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|c:\\users\\ale\\desktop\\git\\tp-winform-equipo-3a\\dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|solutionrelative:dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|c:\\users\\ale\\desktop\\git\\tp-winform-equipo-3a\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|solutionrelative:negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|c:\\users\\ale\\desktop\\git\\tp-winform-equipo-3a\\tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,20 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\Dominio\\Articulo.cs",
-              "RelativeDocumentMoniker": "Dominio\\Articulo.cs",
-              "ToolTip": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\Dominio\\Articulo.cs",
-              "RelativeToolTip": "Dominio\\Articulo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T05:15:30.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Imagen.cs",
               "DocumentMoniker": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\Dominio\\Imagen.cs",
               "RelativeDocumentMoniker": "Dominio\\Imagen.cs",
@@ -72,59 +59,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\Negocio\\AccesoDatos.cs",
-              "RelativeDocumentMoniker": "Negocio\\AccesoDatos.cs",
-              "ToolTip": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\Negocio\\AccesoDatos.cs",
-              "RelativeToolTip": "Negocio\\AccesoDatos.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T04:58:45.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CategoriaNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\Negocio\\CategoriaNegocio.cs",
-              "RelativeDocumentMoniker": "Negocio\\CategoriaNegocio.cs",
-              "ToolTip": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\Negocio\\CategoriaNegocio.cs",
-              "RelativeToolTip": "Negocio\\CategoriaNegocio.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T04:49:52.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ArticuloNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\Negocio\\ArticuloNegocio.cs",
-              "RelativeDocumentMoniker": "Negocio\\ArticuloNegocio.cs",
-              "ToolTip": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\Negocio\\ArticuloNegocio.cs",
-              "RelativeToolTip": "Negocio\\ArticuloNegocio.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCUAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T04:59:01.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "FrmArticulos.cs",
               "DocumentMoniker": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\TP2\\FrmArticulos.cs",
               "RelativeDocumentMoniker": "TP2\\FrmArticulos.cs",
               "ToolTip": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\TP2\\FrmArticulos.cs",
               "RelativeToolTip": "TP2\\FrmArticulos.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAD4vycAAABkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T03:10:34.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\Dominio\\Articulo.cs",
+              "RelativeDocumentMoniker": "Dominio\\Articulo.cs",
+              "ToolTip": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\Dominio\\Articulo.cs",
+              "RelativeToolTip": "Dominio\\Articulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T05:15:30.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\Negocio\\AccesoDatos.cs",
+              "RelativeDocumentMoniker": "Negocio\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\Negocio\\AccesoDatos.cs",
+              "RelativeToolTip": "Negocio\\AccesoDatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T04:58:45.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoriaNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\Negocio\\CategoriaNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\CategoriaNegocio.cs",
+              "ToolTip": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\Negocio\\CategoriaNegocio.cs",
+              "RelativeToolTip": "Negocio\\CategoriaNegocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T04:49:52.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ArticuloNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\Negocio\\ArticuloNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\ArticuloNegocio.cs",
+              "ToolTip": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\Negocio\\ArticuloNegocio.cs",
+              "RelativeToolTip": "Negocio\\ArticuloNegocio.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T04:59:01.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "FrmArticulos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Ale\\Desktop\\Git\\tp-winform-equipo-3A\\TP2\\FrmArticulos.cs",
               "RelativeDocumentMoniker": "TP2\\FrmArticulos.cs",
