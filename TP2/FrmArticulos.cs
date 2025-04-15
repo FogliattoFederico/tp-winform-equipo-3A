@@ -12,9 +12,9 @@ using Negocio;
 
 namespace TP2
 {
-    public partial class Form1 : Form
+    public partial class FrmArticulos : Form
     {
-        public Form1()
+        public FrmArticulos()
         {
             InitializeComponent();
         }
