@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Dominio;
+using Negocio;
 
 namespace TP2
 {
@@ -16,5 +18,12 @@ namespace TP2
         {
             InitializeComponent();
         }
+    
+        
+
+
+
     }
+
+    
 }
