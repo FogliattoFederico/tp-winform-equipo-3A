@@ -18,11 +18,35 @@ namespace TP2
         {
             InitializeComponent();
         }
-    
-        
+
+        private void FrmArticulos_Load(object sender, EventArgs e)
+        {
+            CategoriaNegocio categoriaNegocio = new CategoriaNegocio();
+            try
+            {   
+                /// -- COMBOBOX
+                //Filtro:
+                cboFiltro.DataSource = categoriaNegocio.Listar();
+
+                // Criterio:
+                cboCriterio.Items.Add("Comienza con");
+                cboCriterio.Items.Add("Termina con");
+                cboCriterio.Items.Add("Contiene");
 
 
-
+                /// DataGridView
+                ArticuloNegocio negocio = new ArticuloNegocio();
+                dgvArticulos.DataSource = negocio.Listar();
+                dgvArticulos.Columns["Descripcion"].Width = 150; // Ajusto ancho columna Descripcion
+                dgvArticulos.Columns["Id"].Visible = false; // Oculto Columna Id
+                dgvArticulos.Columns["UrlImagen"].Visible = false; // Oculto Columna ImagenUrl
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+                //throw;
+            }
+        }
     }
 
     
