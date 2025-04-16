@@ -71,6 +71,24 @@ namespace TP2
                 //throw;
             }
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            FrmAltaArticulo frmAltaArticulo = new FrmAltaArticulo();
+            frmAltaArticulo.ShowDialog();
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            FrmModificarArt frmModificarArt = new FrmModificarArt();
+            frmModificarArt.ShowDialog();
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            FrmEliminarArt frmEliminarArticulo = new FrmEliminarArt();
+            frmEliminarArticulo.ShowDialog();
+        }
     }
 
     
