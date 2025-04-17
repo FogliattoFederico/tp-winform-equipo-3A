@@ -9,22 +9,19 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Dominio;
 using Negocio;
+using Tp2;
 
 namespace TP2
 {
     public partial class FrmArticulos : Form
     {
         private List<Articulo> listaArticulos;
-        public FrmArticulos()
-        {
-            InitializeComponent();
-        }
 
-        private void FrmArticulos_Load(object sender, EventArgs e)
+        private void Cargar()
         {
             CategoriaNegocio categoriaNegocio = new CategoriaNegocio();
             try
-            {   
+            {
                 /// -- COMBOBOX
                 //Filtro:
                 cboFiltro.DataSource = categoriaNegocio.Listar();
@@ -52,6 +49,15 @@ namespace TP2
                 //throw;
             }
         }
+        public FrmArticulos()
+        {
+            InitializeComponent();
+        }
+
+        private void FrmArticulos_Load(object sender, EventArgs e)
+        {
+            Cargar();
+        }
 
         private void dgvArticulos_SelectionChanged(object sender, EventArgs e)
         {
@@ -65,7 +71,7 @@ namespace TP2
             {
                 pbxArticulo.Load(imagen);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 pbxArticulo.Load("https://static.vecteezy.com/system/resources/thumbnails/008/695/917/small_2x/no-image-available-icon-simple-two-colors-template-for-no-image-or-picture-coming-soon-and-placeholder-illustration-isolated-on-white-background-vector.jpg");
                 //throw;
@@ -76,12 +82,12 @@ namespace TP2
         {
             FrmAltaArticulo frmAltaArticulo = new FrmAltaArticulo();
             frmAltaArticulo.ShowDialog();
+            Cargar();
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            FrmModificarArt frmModificarArt = new FrmModificarArt();
-            frmModificarArt.ShowDialog();
+            
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)

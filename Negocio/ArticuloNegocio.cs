@@ -23,7 +23,7 @@ namespace Negocio
                 conexion.ConnectionString = "server = .\\SQLEXPRESS; database= CATALOGO_P3_DB; integrated security = true";
                 comando.CommandType = System.Data.CommandType.Text;
                 //comando.CommandText = "select\r\n\tA.Id,\r\n\tA.nombre,\r\n\tA.codigo,\r\n\tA.descripcion,\r\n\tM.Descripcion as Marca,\r\n\tC.Descripcion as Categoria,\r\n\tA.Precio,\r\n\tI.ImagenUrl\r\nFROM\t\r\n\tARTICULOS A\r\ninner JOIN\r\n\tMARCAS M ON A.IdMarca = M.Id\r\nleft JOIN\r\n\tCATEGORIAS C on A.IdCategoria = C.Id\r\ninner join\r\n\tIMAGENES I on A.Id = I.IdArticulo";
-                comando.CommandText = "select A.Id,A.nombre, A.codigo, A.descripcion, M.Descripcion as Marca, C.Descripcion as Categoria, A.Precio, I.ImagenUrl FROM ARTICULOS A INNER JOIN MARCAS M ON A.IdMarca = M.Id  LEFT JOIN CATEGORIAS C ON A.IdCategoria = C.Id INNER JOIN IMAGENES I ON A.Id = I.Id";
+                comando.CommandText = "select A.Id,A.nombre, A.codigo, A.descripcion, M.Descripcion as Marca, C.Descripcion as Categoria, A.Precio, I.ImagenUrl FROM ARTICULOS A INNER JOIN MARCAS M ON A.IdMarca = M.Id  LEFT JOIN CATEGORIAS C ON A.IdCategoria = C.Id INNER JOIN IMAGENES I ON A.Id = I.IdArticulo";
                 comando.Connection = conexion;
 
                 conexion.Open();
@@ -61,7 +61,53 @@ namespace Negocio
             }
         }
 
+        public void AgregarArticulo(Articulo nuevoArticulo)
+        {
+            AccesoDatos datos = new AccesoDatos();
 
+            try
+            {
+                // Primera consulta: Insertar el artículo
+                datos.setearConsulta(@"insert into ARTICULOS (Nombre, Codigo, Descripcion, IdMarca, IdCategoria, Precio) 
+                            values (@Nombre, @Codigo, @Descripcion, @Marca, @Categoria, @Precio);
+                            SELECT SCOPE_IDENTITY();"); // Aquí capturamos el ID generado
+
+                // Parámetros del artículo
+                datos.setearParametro("@Nombre", nuevoArticulo.Nombre);
+                datos.setearParametro("@Codigo", nuevoArticulo.Codigo);
+                datos.setearParametro("@Descripcion", nuevoArticulo.Descripcion);
+                datos.setearParametro("@Marca", nuevoArticulo.Marca.Id);
+                datos.setearParametro("@Categoria", nuevoArticulo.Categoria.Id);
+                datos.setearParametro("@Precio", nuevoArticulo.Precio);
+
+                // Ejecutar y obtener el ID generado
+                datos.ejecutarLectura();
+                if (datos.Lector.Read())
+                {
+                    // Asignamos el ID generado al artículo
+                    nuevoArticulo.Id = Convert.ToInt32(datos.Lector[0]);
+                }
+                datos.cerrarConexion(); // Cerrar la primera conexión
+
+                // Segunda consulta: Insertar la imagen usando el ID obtenido
+                if (!string.IsNullOrEmpty(nuevoArticulo.UrlImagen.ImagenUrl))
+                {
+                    datos = new AccesoDatos(); // Nueva instancia o reabrir conexión
+                    datos.setearConsulta("insert into IMAGENES (IdArticulo, ImagenUrl) values (@IdArticulo, @UrlImagen);");
+                    datos.setearParametro("@IdArticulo", nuevoArticulo.Id);
+                    datos.setearParametro("@UrlImagen", nuevoArticulo.UrlImagen.ImagenUrl);
+                    datos.ejecutarAccion();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
 
     }
 }
