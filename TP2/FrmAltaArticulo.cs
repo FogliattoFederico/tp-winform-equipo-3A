@@ -14,9 +14,18 @@ namespace Tp2
 {
     public partial class FrmAltaArticulo : Form
     {
+        private Articulo articulo = null;
         public FrmAltaArticulo()
         {
             InitializeComponent();
+        }
+
+        public FrmAltaArticulo(Articulo articulo)
+        {
+            InitializeComponent();
+            this.articulo = articulo;
+            Text = "Modificar Articulo";
+            lblTitulo.Text = "Articulo";
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
@@ -24,27 +33,45 @@ namespace Tp2
             Close();
         }
 
-        private async void btnAceptar_Click(object sender, EventArgs e)
+        private void btnAceptar_Click(object sender, EventArgs e)
         {
-            Articulo articuloNuevo = new Articulo();
+            
             ArticuloNegocio negocio = new ArticuloNegocio();
 
             try
             {
-                articuloNuevo.Nombre = txtNombre.Text;
-                articuloNuevo.Codigo = txtCodigo.Text;
-                articuloNuevo.Descripcion = txtDescripcion.Text;
-                articuloNuevo.Marca = (Marca)cbxMarca.SelectedItem;
-                articuloNuevo.Categoria = (Categoria)cbxCategoria.SelectedItem;
-                articuloNuevo.Precio = decimal.Parse(txtPrecio.Text);
+                if (articulo == null) {
+                    
+                    articulo = new Articulo();
+                }
 
-                articuloNuevo.UrlImagen = new Imagen();
-                articuloNuevo.UrlImagen.ImagenUrl = txtUrlImagen.Text;
+                articulo.Nombre = txtNombre.Text;
+                articulo.Codigo = txtCodigo.Text;
+                articulo.Descripcion = txtDescripcion.Text;
+                articulo.Marca = (Marca)cbxMarca.SelectedItem;
+                articulo.Categoria = (Categoria)cbxCategoria.SelectedItem;
+                articulo.Precio = decimal.Parse(txtPrecio.Text);
 
-                negocio.AgregarArticulo(articuloNuevo);
-                MessageBox.Show("Articulo agregado exitosamente");
+                articulo.UrlImagen = new Imagen();
+                articulo.UrlImagen.ImagenUrl = txtUrlImagen.Text;
+
+                if(articulo.Id != 0)
+                {
+                    negocio.modificarArticulo(articulo);
+                    MessageBox.Show("Articulo modificado exitosamente");
+
+                }
+                else
+                {
+                    negocio.AgregarArticulo(articulo);
+                    MessageBox.Show("Articulo agregado exitosamente");
+
+                }
+
                 Close();
-                
+
+              
+
             }
             catch (Exception ex)
             {
@@ -57,11 +84,30 @@ namespace Tp2
         {
             CategoriaNegocio categoriaNegocio = new CategoriaNegocio();
             MarcaNegocio marcaNegocio = new MarcaNegocio();
+            
 
             try
             {
                 cbxCategoria.DataSource = categoriaNegocio.Listar();
+                cbxCategoria.ValueMember = "Id";
+                cbxCategoria.DisplayMember = "Descripcion";
+
+
                 cbxMarca.DataSource = marcaNegocio.Listar();
+                cbxMarca.ValueMember = "Id";
+                cbxMarca.DisplayMember = "Descripcion";
+
+                if (articulo != null)
+                {
+                    txtCodigo.Text = articulo.Codigo;
+                    txtNombre.Text = articulo.Nombre;
+                    txtDescripcion.Text = articulo.Descripcion;
+                    cbxCategoria.SelectedValue = articulo.Categoria.Id;
+                    cbxMarca.SelectedValue = articulo.Marca.Id;
+                    txtPrecio.Text = articulo.Precio.ToString();
+                    txtUrlImagen.Text = articulo.UrlImagen.ImagenUrl;
+                    cargarImagen(articulo.UrlImagen.ImagenUrl);
+                }
             }
             catch (Exception ex)
             {
@@ -73,6 +119,7 @@ namespace Tp2
         private void txtUrlImagen_Leave(object sender, EventArgs e)
         {
             cargarImagen(txtUrlImagen.Text);
+            ValidarCampo(txtUrlImagen);
         }
 
         private void cargarImagen(string imagen)
@@ -103,18 +150,35 @@ namespace Tp2
 
         private void ValidarCampo(TextBox campo)
         {
-            if (campo.Text == "")
+            
+
+            if (campo.Text.Trim() == "")
             {
 
                 campo.BackColor = Color.Red;
-                btnAceptar.Enabled = false;
+                
             }
             else
             {
                 campo.BackColor = System.Drawing.SystemColors.Control;
-                btnAceptar.Enabled = true;
+                
 
             }
+        }
+
+        private void txtNombre_Leave(object sender, EventArgs e)
+        {
+            ValidarCampo(txtNombre);
+        }
+
+        private void txtDescripcion_Leave(object sender, EventArgs e)
+        {
+            ValidarCampo(txtDescripcion);
+        }
+
+        private void txtPrecio_Leave(object sender, EventArgs e)
+        {
+            ValidarCampo(txtPrecio);
         }
     }
 }

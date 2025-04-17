@@ -55,6 +55,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(205, 26);
             this.txtNombre.TabIndex = 1;
+            this.txtNombre.Leave += new System.EventHandler(this.txtNombre_Leave);
             // 
             // txtDescripcion
             // 
@@ -62,6 +63,7 @@
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(205, 26);
             this.txtDescripcion.TabIndex = 2;
+            this.txtDescripcion.Leave += new System.EventHandler(this.txtDescripcion_Leave);
             // 
             // txtCodigo
             // 
@@ -180,6 +182,7 @@
             this.txtPrecio.Size = new System.Drawing.Size(205, 26);
             this.txtPrecio.TabIndex = 5;
             this.txtPrecio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecio_KeyPress);
+            this.txtPrecio.Leave += new System.EventHandler(this.txtPrecio_Leave);
             // 
             // lblUrlImagen
             // 

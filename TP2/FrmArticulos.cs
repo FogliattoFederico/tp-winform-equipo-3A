@@ -90,7 +90,12 @@ namespace TP2
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
+            Articulo articuloSeleccionado;
+            articuloSeleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
             
+            FrmAltaArticulo frmModificar = new FrmAltaArticulo(articuloSeleccionado);
+            frmModificar.ShowDialog();
+            Cargar();
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
