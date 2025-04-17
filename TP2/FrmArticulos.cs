@@ -100,7 +100,19 @@ namespace TP2
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-          
+            ArticuloNegocio articuloNegocio = new ArticuloNegocio();
+            Articulo seleccionado;
+            try
+            {
+                seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+                articuloNegocio.eliminarArticulo(seleccionado.Id);
+                Cargar();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
         }
     }
 
