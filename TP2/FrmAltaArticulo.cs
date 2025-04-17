@@ -89,6 +89,32 @@ namespace Tp2
 
         }
 
-        
+        private void txtPrecio_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar < 48 || e.KeyChar > 59) && e.KeyChar != 8)
+                e.Handled = true;
+        }
+
+        private void txtCodigo_Leave(object sender, EventArgs e)
+        {
+            ValidarCampo(txtCodigo);
+
+        }
+
+        private void ValidarCampo(TextBox campo)
+        {
+            if (campo.Text == "")
+            {
+
+                campo.BackColor = Color.Red;
+                btnAceptar.Enabled = false;
+            }
+            else
+            {
+                campo.BackColor = System.Drawing.SystemColors.Control;
+                btnAceptar.Enabled = true;
+
+            }
+        }
     }
 }
