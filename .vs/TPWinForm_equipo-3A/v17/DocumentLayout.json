@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\",
+  "WorkspaceRootPath": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|c:\\users\\fedef\\documents\\github\\tp-winform-equipo-3a\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|c:\\users\\noxiepc\\documents\\facu recursos\\progra\\tpgrupal\\tp-winform-equipo-3a\\tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|solutionrelative:negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|solutionrelative:negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\tp2\\frmeliminarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\tp2\\frmeliminarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmeliminarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\tp2\\frmmodificarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\tp2\\frmmodificarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmmodificarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\tp2\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\tp2\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|solutionrelative:dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,79 +50,78 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\Dominio\\Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\Dominio\\Articulo.cs",
               "RelativeDocumentMoniker": "Dominio\\Articulo.cs",
-              "ToolTip": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\Dominio\\Articulo.cs",
+              "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\Dominio\\Articulo.cs",
               "RelativeToolTip": "Dominio\\Articulo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T05:15:30.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T05:15:30.112Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\Negocio\\AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\Negocio\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "Negocio\\AccesoDatos.cs",
-              "ToolTip": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\Negocio\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\Negocio\\AccesoDatos.cs",
               "RelativeToolTip": "Negocio\\AccesoDatos.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAiwBkAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T04:58:45.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T04:58:45.566Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "CategoriaNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\Negocio\\CategoriaNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\Negocio\\CategoriaNegocio.cs",
               "RelativeDocumentMoniker": "Negocio\\CategoriaNegocio.cs",
-              "ToolTip": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\Negocio\\CategoriaNegocio.cs",
+              "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\Negocio\\CategoriaNegocio.cs",
               "RelativeToolTip": "Negocio\\CategoriaNegocio.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T04:49:52.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T04:49:52.316Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "FrmArticulos.cs",
-              "DocumentMoniker": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\TP2\\FrmArticulos.cs",
+              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmArticulos.cs",
               "RelativeDocumentMoniker": "TP2\\FrmArticulos.cs",
-              "ToolTip": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\TP2\\FrmArticulos.cs",
+              "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmArticulos.cs",
               "RelativeToolTip": "TP2\\FrmArticulos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T03:10:34.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T03:10:34.252Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "FrmArticulos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\TP2\\FrmArticulos.cs",
+              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmArticulos.cs",
               "RelativeDocumentMoniker": "TP2\\FrmArticulos.cs",
               "ToolTip": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\TP2\\FrmArticulos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TP2\\FrmArticulos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\TP2\\FrmArticulos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T02:41:32.995Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-04-15T02:41:32.995Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ArticuloNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\Negocio\\ArticuloNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\Negocio\\ArticuloNegocio.cs",
               "RelativeDocumentMoniker": "Negocio\\ArticuloNegocio.cs",
-              "ToolTip": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\Negocio\\ArticuloNegocio.cs",
+              "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\Negocio\\ArticuloNegocio.cs",
               "RelativeToolTip": "Negocio\\ArticuloNegocio.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwBYAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -133,23 +132,22 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "FrmEliminarArt.cs",
-              "DocumentMoniker": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\TP2\\FrmEliminarArt.cs",
+              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmEliminarArt.cs",
               "RelativeDocumentMoniker": "TP2\\FrmEliminarArt.cs",
-              "ToolTip": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\TP2\\FrmEliminarArt.cs",
+              "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmEliminarArt.cs",
               "RelativeToolTip": "TP2\\FrmEliminarArt.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T03:30:52.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T03:30:52.494Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "FrmModificarArt.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\TP2\\FrmModificarArt.cs",
+              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmModificarArt.cs",
               "RelativeDocumentMoniker": "TP2\\FrmModificarArt.cs",
               "ToolTip": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\TP2\\FrmModificarArt.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TP2\\FrmModificarArt.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\TP2\\FrmModificarArt.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T03:14:40.305Z"
             },
@@ -157,9 +155,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "FrmAltaArticulo.cs",
-              "DocumentMoniker": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\TP2\\FrmAltaArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmAltaArticulo.cs",
               "RelativeDocumentMoniker": "TP2\\FrmAltaArticulo.cs",
-              "ToolTip": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\TP2\\FrmAltaArticulo.cs",
+              "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmAltaArticulo.cs",
               "RelativeToolTip": "TP2\\FrmAltaArticulo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -169,9 +167,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Imagen.cs",
-              "DocumentMoniker": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\Dominio\\Imagen.cs",
+              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\Dominio\\Imagen.cs",
               "RelativeDocumentMoniker": "Dominio\\Imagen.cs",
-              "ToolTip": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\Dominio\\Imagen.cs",
+              "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\Dominio\\Imagen.cs",
               "RelativeToolTip": "Dominio\\Imagen.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
