@@ -1,50 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\",
+  "WorkspaceRootPath": "C:\\Users\\fedef\\Desktop\\VERSION DE GITHUB\\tp-winform-equipo-3A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|c:\\users\\fedef\\downloads\\tp-winform-equipo-3a-main\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|c:\\users\\fedef\\downloads\\tp-winform-equipo-3a-main\\tp2\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\tp2\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|solutionrelative:negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|solutionrelative:negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|C:\\Users\\fedef\\Desktop\\VERSION DE GITHUB\\tp-winform-equipo-3A\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\tp2\\frmeliminarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmeliminarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Desktop\\VERSION DE GITHUB\\tp-winform-equipo-3A\\tp2\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\tp2\\frmmodificarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmmodificarart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|solutionrelative:dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|c:\\users\\fedef\\desktop\\version de github\\tp-winform-equipo-3a\\tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,11 +30,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "FrmAltaArticulo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\TP2\\FrmAltaArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\fedef\\Desktop\\VERSION DE GITHUB\\tp-winform-equipo-3A\\TP2\\FrmAltaArticulo.cs",
               "RelativeDocumentMoniker": "TP2\\FrmAltaArticulo.cs",
-              "ToolTip": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\TP2\\FrmAltaArticulo.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\fedef\\Desktop\\VERSION DE GITHUB\\tp-winform-equipo-3A\\TP2\\FrmAltaArticulo.cs [Dise\u00F1o]",
               "RelativeToolTip": "TP2\\FrmAltaArticulo.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T02:28:45.479Z",
@@ -74,126 +42,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FrmArticulos.cs",
-              "DocumentMoniker": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\TP2\\FrmArticulos.cs",
+              "DocumentMoniker": "C:\\Users\\fedef\\Desktop\\VERSION DE GITHUB\\tp-winform-equipo-3A\\TP2\\FrmArticulos.cs",
               "RelativeDocumentMoniker": "TP2\\FrmArticulos.cs",
-              "ToolTip": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\TP2\\FrmArticulos.cs",
+              "ToolTip": "C:\\Users\\fedef\\Desktop\\VERSION DE GITHUB\\tp-winform-equipo-3A\\TP2\\FrmArticulos.cs",
               "RelativeToolTip": "TP2\\FrmArticulos.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAgwFQAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T03:10:34.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmArticulos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\TP2\\FrmArticulos.cs",
-              "RelativeDocumentMoniker": "TP2\\FrmArticulos.cs",
-              "ToolTip": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\TP2\\FrmArticulos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TP2\\FrmArticulos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T02:41:32.995Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ArticuloNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\Negocio\\ArticuloNegocio.cs",
-              "RelativeDocumentMoniker": "Negocio\\ArticuloNegocio.cs",
-              "ToolTip": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\Negocio\\ArticuloNegocio.cs",
-              "RelativeToolTip": "Negocio\\ArticuloNegocio.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBkAAAA1AQAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T04:59:01.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FrmEliminarArt.cs",
-              "DocumentMoniker": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\TP2\\FrmEliminarArt.cs",
-              "RelativeDocumentMoniker": "TP2\\FrmEliminarArt.cs",
-              "ToolTip": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\TP2\\FrmEliminarArt.cs",
-              "RelativeToolTip": "TP2\\FrmEliminarArt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T03:30:52.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmAltaArticulo.cs",
-              "DocumentMoniker": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\TP2\\FrmAltaArticulo.cs",
-              "RelativeDocumentMoniker": "TP2\\FrmAltaArticulo.cs",
-              "ToolTip": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\TP2\\FrmAltaArticulo.cs",
-              "RelativeToolTip": "TP2\\FrmAltaArticulo.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAEwBoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:37:06.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\Negocio\\AccesoDatos.cs",
-              "RelativeDocumentMoniker": "Negocio\\AccesoDatos.cs",
-              "ToolTip": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\Negocio\\AccesoDatos.cs",
-              "RelativeToolTip": "Negocio\\AccesoDatos.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAUwDQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T04:58:45.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoriaNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\Negocio\\CategoriaNegocio.cs",
-              "RelativeDocumentMoniker": "Negocio\\CategoriaNegocio.cs",
-              "ToolTip": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\Negocio\\CategoriaNegocio.cs",
-              "RelativeToolTip": "Negocio\\CategoriaNegocio.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T04:49:52.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\Dominio\\Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\fedef\\Desktop\\VERSION DE GITHUB\\tp-winform-equipo-3A\\Dominio\\Articulo.cs",
               "RelativeDocumentMoniker": "Dominio\\Articulo.cs",
-              "ToolTip": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\Dominio\\Articulo.cs",
-              "RelativeToolTip": "Dominio\\Articulo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\fedef\\Desktop\\VERSION DE GITHUB\\tp-winform-equipo-3A\\Dominio\\Articulo.cs*",
+              "RelativeToolTip": "Dominio\\Articulo.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T05:15:30.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FrmModificarArt.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\TP2\\FrmModificarArt.cs",
-              "RelativeDocumentMoniker": "TP2\\FrmModificarArt.cs",
-              "ToolTip": "C:\\Users\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\TP2\\FrmModificarArt.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\NoxiePC\\Documents\\Facu Recursos\\Progra\\tpgrupal\\tp-winform-equipo-3A\\TP2\\FrmModificarArt.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T03:14:40.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Imagen.cs",
-              "DocumentMoniker": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\Dominio\\Imagen.cs",
-              "RelativeDocumentMoniker": "Dominio\\Imagen.cs",
-              "ToolTip": "C:\\Users\\fedef\\Downloads\\tp-winform-equipo-3A-main\\Dominio\\Imagen.cs",
-              "RelativeToolTip": "Dominio\\Imagen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T05:09:34.41Z"
+              "WhenOpened": "2025-04-15T05:15:30.112Z",
+              "EditorCaption": ""
             }
           ]
         }
