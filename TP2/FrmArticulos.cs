@@ -20,6 +20,7 @@ namespace TP2
         private void Cargar()
         {
             CategoriaNegocio categoriaNegocio = new CategoriaNegocio();
+            ArticuloNegocio negocio = new ArticuloNegocio();
             try
             {
                 /// -- COMBOBOX
@@ -33,7 +34,6 @@ namespace TP2
 
 
                 /// DataGridView
-                ArticuloNegocio negocio = new ArticuloNegocio();
                 listaArticulos = negocio.Listar();
                 dgvArticulos.DataSource = listaArticulos;
                 dgvArticulos.Columns["Descripcion"].Width = 150; // Ajusto ancho columna Descripcion
@@ -41,7 +41,7 @@ namespace TP2
                 dgvArticulos.Columns["UrlImagen"].Visible = false; // Oculto Columna ImagenUrl
 
                 /// PictureBox
-                pbxArticulo.Load(listaArticulos[0].UrlImagen.ToString()); // Cargo imagen
+                cargarImagen(listaArticulos[0].UrlImagen.ToString()); // Cargo imagen
             }
             catch (Exception ex)
             {
@@ -61,8 +61,11 @@ namespace TP2
 
         private void dgvArticulos_SelectionChanged(object sender, EventArgs e)
         {
-            Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
-            cargarImagen(seleccionado.UrlImagen.ToString());
+            if (dgvArticulos.CurrentRow != null)
+            {
+                Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+                cargarImagen(seleccionado.UrlImagen.ToString());
+            }
         }
 
         private void cargarImagen(string imagen)
@@ -92,8 +95,7 @@ namespace TP2
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            FrmEliminarArt frmEliminarArticulo = new FrmEliminarArt();
-            frmEliminarArticulo.ShowDialog();
+          
         }
     }
 
