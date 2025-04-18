@@ -150,7 +150,7 @@ namespace Negocio
             }
         }
 
-        //eliminar
+
         public void eliminarArticulo(int id)
         {
             try

@@ -104,9 +104,13 @@ namespace TP2
             Articulo seleccionado;
             try
             {
-                seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
-                articuloNegocio.eliminarArticulo(seleccionado.Id);
-                Cargar();
+                DialogResult respuesta = MessageBox.Show("¿Esta seguro que quiere eliminar este articulo?","Eliminando",MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
+                if (respuesta == DialogResult.Yes)
+                {
+                    seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+                    articuloNegocio.eliminarArticulo(seleccionado.Id);
+                    Cargar();
+                }
             }
             catch (Exception ex)
             {
