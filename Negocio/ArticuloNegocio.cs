@@ -166,6 +166,119 @@ namespace Negocio
                 throw ex;
             }
         }
+
+
+        public List<Articulo> filtrar(string columna, string criterio, string buscar)
+        {
+            List<Articulo> lista = new List<Articulo>();
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                string consulta = "select A.Id,A.nombre, A.codigo, A.descripcion, M.Descripcion as Marca, C.Descripcion as Categoria, A.Precio, I.ImagenUrl FROM ARTICULOS A INNER JOIN MARCAS M ON A.IdMarca = M.Id  LEFT JOIN CATEGORIAS C ON A.IdCategoria = C.Id INNER JOIN IMAGENES I ON A.Id = I.IdArticulo WHERE ";
+
+                string opcion = "";
+
+                switch (columna)
+                {
+                    case "Nombre":
+                        opcion = "A.nombre";
+                        switch (criterio)
+                        {
+                            case "Comienza con":
+                                consulta += opcion + " LIKE '" + buscar + "%'";
+                                break;
+                            case "Termina con":
+                                consulta += opcion + " LIKE '%" + buscar + "'";
+                                break;
+                            case "Contiene":
+                                consulta += opcion + " LIKE '%" + buscar + "%'";
+                                break;
+                        }
+                        break;
+                    case "Marca":
+                        opcion = "M.Descripcion";
+                        switch (criterio)
+                        {
+                            case "Comienza con":
+                                consulta += opcion + " LIKE '" + buscar + "%'";
+                                break;
+                            case "Termina con":
+                                consulta += opcion + " LIKE '%" + buscar + "'";
+                                break;
+                            case "Contiene":
+                                consulta += opcion + " LIKE '%" + buscar + "%'";
+                                break;
+                        }
+                        break;
+                    case "Categoria":
+                        opcion = "C.Descripcion";
+                        switch (criterio)
+                        {
+                            case "Comienza con":
+                                consulta += opcion + " LIKE '" + buscar + "%'";
+                                break;
+                            case "Termina con":
+                                consulta += opcion + " LIKE '%" + buscar + "'";
+                                break;
+                            case "Contiene":
+                                consulta += opcion + " LIKE '%" + buscar + "%'";
+                                break;
+                        }
+                        break;
+                    case "Precio":
+                        opcion = "A.Precio";
+                        switch (criterio)
+                        {
+                            case "Igual a":
+                                consulta += opcion + " = '" + buscar + "'";
+                                break;
+                            case "Menor a":
+                                consulta += opcion + " < '" + buscar + "'";
+                                break;
+                            case "Mayor a":
+                                consulta += opcion + " > '" + buscar + "'";
+                                break;
+                        }
+                        break;
+
+                }
+
+                datos.setearConsulta(consulta);
+                datos.ejecutarLectura();
+
+                while (datos.Lector.Read())
+                {
+                    Articulo aux = new Articulo();
+                    aux.Id = (int)datos.Lector["Id"];
+                    aux.Codigo = (string)datos.Lector["Codigo"];
+                    aux.Nombre = (string)datos.Lector["Nombre"];
+                    aux.Descripcion = (string)datos.Lector["Descripcion"];
+                    aux.Precio = Convert.ToDecimal(datos.Lector["Precio"]);
+
+                    aux.UrlImagen = new Imagen();
+                    aux.UrlImagen.ImagenUrl = (string)datos.Lector["ImagenUrl"];
+
+                    aux.Marca = new Marca();
+                    aux.Marca.Descripcion = (string)datos.Lector["Marca"];
+
+                    //Manejo de moto g sin categoria
+                    aux.Categoria = !(datos.Lector["Categoria"] is DBNull)
+                    ? new Categoria { Descripcion = (string)datos.Lector["Categoria"] }
+                    : null;
+
+                    lista.Add(aux);
+                }
+
+                return lista;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
     }
 }
 
