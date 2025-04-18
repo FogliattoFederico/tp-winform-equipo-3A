@@ -41,7 +41,22 @@ namespace TP2
                 dgvArticulos.Columns["UrlImagen"].Visible = false; // Oculto Columna ImagenUrl
 
                 /// PictureBox
-                cargarImagen(listaArticulos[0].UrlImagen.ToString()); // Cargo imagen
+                //cargarImagen(listaArticulos[0].UrlImagen.ToString()); // Cargo imagen
+                if (listaArticulos != null && listaArticulos.Any())
+                {
+                    dgvArticulos.ClearSelection();
+                    dgvArticulos.Rows[0].Selected = true; // Seleccionar primera fila
+                    cargarImagen(listaArticulos.First().UrlImagen?.ToString() ?? string.Empty);
+                    pbxArticulo.Visible = true;
+                }
+                else
+                {
+                    pbxArticulo.Visible = false;
+                }
+
+                bool hayArticulos = listaArticulos != null && listaArticulos.Any();
+                btnModificar.Enabled = hayArticulos;
+                btnEliminar.Enabled = hayArticulos;
             }
             catch (Exception ex)
             {
