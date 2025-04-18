@@ -98,6 +98,14 @@ namespace TP2
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
+            if (dgvArticulos.CurrentRow == null || dgvArticulos.CurrentRow.DataBoundItem == null)
+            {
+                MessageBox.Show("Por favor seleccione un artículo de la lista",
+                              "Selección requerida",
+                              MessageBoxButtons.OK,
+                              MessageBoxIcon.Warning);
+                return;
+            }
             Articulo articuloSeleccionado;
             articuloSeleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
             
@@ -108,6 +116,14 @@ namespace TP2
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
+            if (dgvArticulos.CurrentRow == null || dgvArticulos.CurrentRow.DataBoundItem == null)
+            {
+                MessageBox.Show("Por favor seleccione un artículo de la lista",
+                              "Selección requerida",
+                              MessageBoxButtons.OK,
+                              MessageBoxIcon.Warning);
+                return;
+            }
             ArticuloNegocio articuloNegocio = new ArticuloNegocio();
             Articulo seleccionado;
             try
