@@ -153,17 +153,29 @@ namespace Negocio
 
         public void eliminarArticulo(int id)
         {
-            try
-            {
-                AccesoDatos datos = new AccesoDatos();
+            AccesoDatos datos = new AccesoDatos();
+
+            try { 
+                
+                datos.setearConsulta("delete from imagenes where IdArticulo = @IdArticulo");
+                datos.setearParametro("@IdArticulo", id);
+                datos.ejecutarAccion();
+                datos.cerrarConexion();
+            
                 datos.setearConsulta("delete from ARTICULOS where id = @id");
                 datos.setearParametro("@id",id);
                 datos.ejecutarAccion();
+                
+
 
             }
             catch (Exception ex)
             {
                 throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
             }
         }
 
