@@ -288,7 +288,6 @@
             this.label1.TabIndex = 28;
             this.label1.Text = "*";
             this.label1.Visible = false;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblLeyendaObligatorio
             // 
