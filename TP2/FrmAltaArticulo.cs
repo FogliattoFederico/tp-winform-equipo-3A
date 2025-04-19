@@ -82,6 +82,8 @@ namespace Tp2
 
         private void FrmAltaArticulo_Load(object sender, EventArgs e)
         {
+            indicarObligatorio();
+            controlAceptar();
             CategoriaNegocio categoriaNegocio = new CategoriaNegocio();
             MarcaNegocio marcaNegocio = new MarcaNegocio();
             
@@ -102,7 +104,18 @@ namespace Tp2
                     txtCodigo.Text = articulo.Codigo;
                     txtNombre.Text = articulo.Nombre;
                     txtDescripcion.Text = articulo.Descripcion;
-                    cbxCategoria.SelectedValue = articulo.Categoria.Id;
+                    //TODO
+                    /************** PRUEBAS Validacion *****************************/
+                    if (articulo.Categoria == null || articulo.Categoria.Id == 0)
+                    {
+                        MessageBox.Show("Este articulo no posee categoria. Por favor corrija campos segun corresponda");
+                    }
+                    else
+                    {
+                        cbxCategoria.SelectedValue = articulo.Categoria.Id;
+                    }
+                    /**************************************************************/                    
+                    //cbxCategoria.SelectedValue = articulo.Categoria.Id;
                     cbxMarca.SelectedValue = articulo.Marca.Id;
                     txtPrecio.Text = articulo.Precio.ToString();
                     txtUrlImagen.Text = articulo.UrlImagen.ImagenUrl;
@@ -111,16 +124,12 @@ namespace Tp2
             }
             catch (Exception ex)
             {
-
-                throw ex;
+                MessageBox.Show(ex.ToString());
+                //throw
             }
         }
 
-        private void txtUrlImagen_Leave(object sender, EventArgs e)
-        {
-            cargarImagen(txtUrlImagen.Text);
-            ValidarCampo(txtUrlImagen);
-        }
+        
 
         private void cargarImagen(string imagen)
         {
@@ -140,6 +149,13 @@ namespace Tp2
         {
             if ((e.KeyChar < 48 || e.KeyChar > 59) && e.KeyChar != 8)
                 e.Handled = true;
+        }
+
+        /*
+        private void txtUrlImagen_Leave(object sender, EventArgs e)
+        {
+            cargarImagen(txtUrlImagen.Text);
+            ValidarCampo(txtUrlImagen);
         }
 
         private void txtCodigo_Leave(object sender, EventArgs e)
@@ -179,6 +195,107 @@ namespace Tp2
         private void txtPrecio_Leave(object sender, EventArgs e)
         {
             ValidarCampo(txtPrecio);
+        }
+        */
+
+        // Metodo controla que los campos esten llenos para habilitar boton ACEPTAR
+        private void controlAceptar()
+        {
+            if (!string.IsNullOrWhiteSpace(txtCodigo.Text)
+                && !string.IsNullOrWhiteSpace(txtNombre.Text)
+                && !string.IsNullOrWhiteSpace(txtDescripcion.Text)
+                && !string.IsNullOrWhiteSpace(txtPrecio.Text)
+                && !string.IsNullOrWhiteSpace(txtUrlImagen.Text))
+            {
+                btnAceptar.Enabled = true;
+            }
+            else
+            {
+                btnAceptar.Enabled = false;
+            }
+        }
+
+        // Metodo indica si un campo obligatorio esta vacio mostrando asterisco rojo (OPCIONAL)
+        private void indicarObligatorio()
+        {
+            if (string.IsNullOrWhiteSpace(txtCodigo.Text))
+            {
+                lblCodigoRojo.Visible = true;
+            }
+            else
+            {
+                lblCodigoRojo.Visible = false;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtNombre.Text))
+            {
+                lblNombreRojo.Visible = true;
+            }
+            else
+            {
+                lblNombreRojo.Visible = false;
+
+            }
+
+            if (string.IsNullOrWhiteSpace(txtDescripcion.Text))
+            {
+                lblDescripcionRojo.Visible = true;
+            }
+            else
+            {
+                lblDescripcionRojo.Visible = false;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtPrecio.Text))
+            {
+                lblPrecioRojo.Visible = true;
+            }
+            else
+            {
+                lblPrecioRojo.Visible = false;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtUrlImagen.Text))
+            {
+                lblUrlImagenRojo.Visible = true;
+            }
+            else
+            {
+                lblUrlImagenRojo.Visible = false;
+            }
+
+        }
+
+        // Eventos Varios
+        private void txtCodigo_TextChanged(object sender, EventArgs e)
+        {
+            indicarObligatorio();
+            controlAceptar();
+        }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+            indicarObligatorio();
+            controlAceptar();
+        }
+
+        private void txtDescripcion_TextChanged(object sender, EventArgs e)
+        {
+            indicarObligatorio();
+            controlAceptar();
+        }
+
+        private void txtPrecio_TextChanged(object sender, EventArgs e)
+        {
+            indicarObligatorio();
+            controlAceptar();
+        }
+
+        private void txtUrlImagen_TextChanged(object sender, EventArgs e)
+        {
+            indicarObligatorio();
+            controlAceptar();
+            cargarImagen(txtUrlImagen.Text);
         }
     }
 }
