@@ -297,5 +297,7 @@ namespace Tp2
             controlAceptar();
             cargarImagen(txtUrlImagen.Text);
         }
+
+       
     }
 }
