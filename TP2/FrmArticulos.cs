@@ -314,8 +314,8 @@ namespace TP2
         {
             MessageBox.Show("Desarrollado por: \n\n" +
                             "Fogliatto Federico \n" +
-                            "Lucas Alejando \n" +
-                            "Nicolas Yanet \n\n" +
+                            "Ledesma Yanet \n" +
+                            "Olguera Alejando \n\n" +
                             "Grupo 3A", "Acerca de", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             
                             

@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|c:\\users\\fedef\\documents\\github\\tp-winform-equipo-3a\\tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|c:\\users\\fedef\\documents\\github\\tp-winform-equipo-3a\\tp2\\frmaltamarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\tp2\\frmaltamarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmaltamarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\tp2\\frmaltacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmaltacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,20 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmAltaMarca.cs",
-              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmAltaMarca.cs",
-              "RelativeDocumentMoniker": "TP2\\FrmAltaMarca.cs",
-              "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmAltaMarca.cs",
-              "RelativeToolTip": "TP2\\FrmAltaMarca.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAowDQAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T12:20:27.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FrmAltaMarca.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmAltaMarca.cs",
               "RelativeDocumentMoniker": "TP2\\FrmAltaMarca.cs",
@@ -70,7 +57,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FrmMarcas.cs",
               "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmMarcas.cs",
               "RelativeDocumentMoniker": "TP2\\FrmMarcas.cs",
@@ -82,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FrmAltaCategoria.cs",
               "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmAltaCategoria.cs",
               "RelativeDocumentMoniker": "TP2\\FrmAltaCategoria.cs",
@@ -94,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "FrmAltaCategoria.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmAltaCategoria.cs",
               "RelativeDocumentMoniker": "TP2\\FrmAltaCategoria.cs",
@@ -105,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FrmArticulos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmArticulos.cs",
               "RelativeDocumentMoniker": "TP2\\FrmArticulos.cs",
@@ -117,16 +104,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "FrmArticulos.cs",
               "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmArticulos.cs",
               "RelativeDocumentMoniker": "TP2\\FrmArticulos.cs",
               "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmArticulos.cs*",
               "RelativeToolTip": "TP2\\FrmArticulos.cs*",
-              "ViewState": "AgIAACsBAAAAAAAAAAAywD0BAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACsBAAAAAAAAAAAIwD0BAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T21:20:36.389Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmAltaMarca.cs",
+              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmAltaMarca.cs",
+              "RelativeDocumentMoniker": "TP2\\FrmAltaMarca.cs",
+              "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmAltaMarca.cs",
+              "RelativeToolTip": "TP2\\FrmAltaMarca.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAowDQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T12:20:27.383Z"
             }
           ]
         }
