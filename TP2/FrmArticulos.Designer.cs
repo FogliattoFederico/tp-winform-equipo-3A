@@ -55,7 +55,7 @@
             // lblFiltro
             // 
             this.lblFiltro.AutoSize = true;
-            this.lblFiltro.Location = new System.Drawing.Point(19, 53);
+            this.lblFiltro.Location = new System.Drawing.Point(20, 50);
             this.lblFiltro.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFiltro.Name = "lblFiltro";
             this.lblFiltro.Size = new System.Drawing.Size(48, 20);
@@ -76,7 +76,7 @@
             // lblCriterio
             // 
             this.lblCriterio.AutoSize = true;
-            this.lblCriterio.Location = new System.Drawing.Point(211, 53);
+            this.lblCriterio.Location = new System.Drawing.Point(212, 51);
             this.lblCriterio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCriterio.Name = "lblCriterio";
             this.lblCriterio.Size = new System.Drawing.Size(63, 20);
@@ -96,7 +96,7 @@
             // lblBuscar
             // 
             this.lblBuscar.AutoSize = true;
-            this.lblBuscar.Location = new System.Drawing.Point(473, 53);
+            this.lblBuscar.Location = new System.Drawing.Point(476, 51);
             this.lblBuscar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBuscar.Name = "lblBuscar";
             this.lblBuscar.Size = new System.Drawing.Size(63, 20);
@@ -114,7 +114,7 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(855, 45);
+            this.btnBuscar.Location = new System.Drawing.Point(847, 44);
             this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(112, 35);
@@ -125,7 +125,7 @@
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(976, 45);
+            this.btnLimpiar.Location = new System.Drawing.Point(968, 44);
             this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(112, 35);
@@ -144,7 +144,7 @@
             this.dgvArticulos.Name = "dgvArticulos";
             this.dgvArticulos.RowHeadersWidth = 51;
             this.dgvArticulos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvArticulos.Size = new System.Drawing.Size(1065, 231);
+            this.dgvArticulos.Size = new System.Drawing.Size(1057, 231);
             this.dgvArticulos.TabIndex = 5;
             this.dgvArticulos.SelectionChanged += new System.EventHandler(this.dgvArticulos_SelectionChanged);
             // 
@@ -186,7 +186,7 @@
             this.txtBuscar2.Location = new System.Drawing.Point(547, 48);
             this.txtBuscar2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtBuscar2.Name = "txtBuscar2";
-            this.txtBuscar2.Size = new System.Drawing.Size(296, 26);
+            this.txtBuscar2.Size = new System.Drawing.Size(283, 26);
             this.txtBuscar2.TabIndex = 2;
             // 
             // lblFiltroRapido
