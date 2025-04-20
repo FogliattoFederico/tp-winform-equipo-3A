@@ -43,7 +43,7 @@
             this.dgvMarcas.Name = "dgvMarcas";
             this.dgvMarcas.RowHeadersWidth = 62;
             this.dgvMarcas.RowTemplate.Height = 28;
-            this.dgvMarcas.Size = new System.Drawing.Size(273, 125);
+            this.dgvMarcas.Size = new System.Drawing.Size(273, 121);
             this.dgvMarcas.TabIndex = 0;
             // 
             // btnAgregar

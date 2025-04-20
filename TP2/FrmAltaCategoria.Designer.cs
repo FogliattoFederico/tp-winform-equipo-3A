@@ -33,6 +33,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.lblAsterisco = new System.Windows.Forms.Label();
+            this.LblObligatorio = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblDescripcion
@@ -50,6 +52,7 @@
             this.txtCategoria.Name = "txtCategoria";
             this.txtCategoria.Size = new System.Drawing.Size(258, 26);
             this.txtCategoria.TabIndex = 1;
+            this.txtCategoria.Leave += new System.EventHandler(this.txtCategoria_Leave);
             // 
             // label1
             // 
@@ -63,7 +66,7 @@
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(106, 227);
+            this.btnAceptar.Location = new System.Drawing.Point(108, 248);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(91, 39);
             this.btnAceptar.TabIndex = 4;
@@ -73,7 +76,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(247, 227);
+            this.btnCancelar.Location = new System.Drawing.Point(249, 248);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(92, 39);
             this.btnCancelar.TabIndex = 5;
@@ -81,11 +84,33 @@
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
+            // lblAsterisco
+            // 
+            this.lblAsterisco.AutoSize = true;
+            this.lblAsterisco.ForeColor = System.Drawing.Color.Red;
+            this.lblAsterisco.Location = new System.Drawing.Point(390, 148);
+            this.lblAsterisco.Name = "lblAsterisco";
+            this.lblAsterisco.Size = new System.Drawing.Size(15, 20);
+            this.lblAsterisco.TabIndex = 6;
+            this.lblAsterisco.Text = "*";
+            // 
+            // LblObligatorio
+            // 
+            this.LblObligatorio.AutoSize = true;
+            this.LblObligatorio.ForeColor = System.Drawing.Color.Red;
+            this.LblObligatorio.Location = new System.Drawing.Point(122, 194);
+            this.LblObligatorio.Name = "LblObligatorio";
+            this.LblObligatorio.Size = new System.Drawing.Size(138, 20);
+            this.LblObligatorio.TabIndex = 7;
+            this.LblObligatorio.Text = "* Campo obligatrio";
+            // 
             // FrmAltaCategoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(433, 326);
+            this.Controls.Add(this.LblObligatorio);
+            this.Controls.Add(this.lblAsterisco);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.label1);
@@ -107,5 +132,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Label lblAsterisco;
+        private System.Windows.Forms.Label LblObligatorio;
     }
 }

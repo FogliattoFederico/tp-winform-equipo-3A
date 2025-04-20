@@ -42,13 +42,14 @@
             this.btnEliminar = new System.Windows.Forms.Button();
             this.txtBuscar2 = new System.Windows.Forms.TextBox();
             this.lblFiltroRapido = new System.Windows.Forms.Label();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.TsCategorias = new System.Windows.Forms.ToolStripButton();
-            this.TsMarcas = new System.Windows.Forms.ToolStripButton();
             this.pbxArticulo = new System.Windows.Forms.PictureBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.MstCategorias = new System.Windows.Forms.ToolStripMenuItem();
+            this.MtsMarcas = new System.Windows.Forms.ToolStripMenuItem();
+            this.MstAbout = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulos)).BeginInit();
-            this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblFiltro
@@ -198,38 +199,6 @@
             this.lblFiltroRapido.TabIndex = 14;
             this.lblFiltroRapido.Text = "Busqueda Rapida:";
             // 
-            // toolStrip1
-            // 
-            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.TsCategorias,
-            this.TsMarcas});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1384, 33);
-            this.toolStrip1.TabIndex = 15;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
-            // TsCategorias
-            // 
-            this.TsCategorias.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.TsCategorias.Image = global::TP2.Properties.Resources.icons8_producto_nuevo;
-            this.TsCategorias.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.TsCategorias.Name = "TsCategorias";
-            this.TsCategorias.Size = new System.Drawing.Size(34, 28);
-            this.TsCategorias.Text = "Categorias";
-            this.TsCategorias.Click += new System.EventHandler(this.TsCategorias_Click);
-            // 
-            // TsMarcas
-            // 
-            this.TsMarcas.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.TsMarcas.Image = global::TP2.Properties.Resources.icons8_etiqueta_de_precio;
-            this.TsMarcas.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.TsMarcas.Name = "TsMarcas";
-            this.TsMarcas.Size = new System.Drawing.Size(34, 28);
-            this.TsMarcas.Text = "Marcas";
-            this.TsMarcas.Click += new System.EventHandler(this.TsMarcas_Click);
-            // 
             // pbxArticulo
             // 
             this.pbxArticulo.Location = new System.Drawing.Point(1119, 95);
@@ -240,12 +209,47 @@
             this.pbxArticulo.TabIndex = 12;
             this.pbxArticulo.TabStop = false;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MstCategorias,
+            this.MtsMarcas,
+            this.MstAbout});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1384, 33);
+            this.menuStrip1.TabIndex = 16;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // MstCategorias
+            // 
+            this.MstCategorias.Name = "MstCategorias";
+            this.MstCategorias.Size = new System.Drawing.Size(132, 29);
+            this.MstCategorias.Text = "CATEGORIAS";
+            this.MstCategorias.Click += new System.EventHandler(this.MstCategorias_Click);
+            // 
+            // MtsMarcas
+            // 
+            this.MtsMarcas.Name = "MtsMarcas";
+            this.MtsMarcas.Size = new System.Drawing.Size(100, 29);
+            this.MtsMarcas.Text = "MARCAS";
+            this.MtsMarcas.Click += new System.EventHandler(this.MtsMarcas_Click);
+            // 
+            // MstAbout
+            // 
+            this.MstAbout.Name = "MstAbout";
+            this.MstAbout.Size = new System.Drawing.Size(85, 29);
+            this.MstAbout.Text = "ABOUT";
+            this.MstAbout.Click += new System.EventHandler(this.MstAbout_Click);
+            // 
             // FrmArticulos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1384, 423);
-            this.Controls.Add(this.toolStrip1);
+            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.lblFiltroRapido);
             this.Controls.Add(this.txtBuscar2);
             this.Controls.Add(this.pbxArticulo);
@@ -261,14 +265,15 @@
             this.Controls.Add(this.lblCriterio);
             this.Controls.Add(this.cboFiltro);
             this.Controls.Add(this.lblFiltro);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "FrmArticulos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Articulos";
             this.Load += new System.EventHandler(this.FrmArticulos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulos)).EndInit();
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -291,9 +296,10 @@
         private System.Windows.Forms.PictureBox pbxArticulo;
         private System.Windows.Forms.TextBox txtBuscar2;
         private System.Windows.Forms.Label lblFiltroRapido;
-        private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton TsMarcas;
-        private System.Windows.Forms.ToolStripButton TsCategorias;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem MstCategorias;
+        private System.Windows.Forms.ToolStripMenuItem MtsMarcas;
+        private System.Windows.Forms.ToolStripMenuItem MstAbout;
     }
 }
 

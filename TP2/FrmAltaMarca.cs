@@ -28,9 +28,11 @@ namespace TP2
         }
         private void FrmAltaMarca_Load(object sender, EventArgs e)
         {
+            btnAceptar.Enabled = false;
             if (marca != null)
             {
                 txtMarca.Text = marca.Descripcion;
+                btnAceptar.Enabled = true;
             }
         }
         private void btnAceptar_Click(object sender, EventArgs e)
@@ -85,6 +87,11 @@ namespace TP2
         private void BtnCancelar_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void txtMarca_Leave(object sender, EventArgs e)
+        {
+            btnAceptar.Enabled = !string.IsNullOrWhiteSpace(txtMarca.Text);
         }
     }
 }

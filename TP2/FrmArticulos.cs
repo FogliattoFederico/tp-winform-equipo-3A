@@ -292,8 +292,33 @@ namespace TP2
         private void TsMarcas_Click(object sender, EventArgs e)
         {
             FrmMarcas frmMarcas = new FrmMarcas();
-            frmMarcas.ShowDialog(); 
+            frmMarcas.ShowDialog();
+            Cargar();
+        }
 
+        private void MstCategorias_Click(object sender, EventArgs e)
+        {
+            FrmCategorias FrmCategoria = new FrmCategorias();
+            FrmCategoria.ShowDialog();
+            Cargar();
+        }
+
+        private void MtsMarcas_Click(object sender, EventArgs e)
+        {
+            FrmMarcas frmMarcas = new FrmMarcas();
+            frmMarcas.ShowDialog();
+            Cargar();
+        }
+
+        private void MstAbout_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Desarrollado por: \n\n" +
+                            "Fogliatto Federico \n" +
+                            "Lucas Alejando \n" +
+                            "Nicolas Yanet \n\n" +
+                            "Grupo 3A", "Acerca de", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            
+                            
         }
     }
 

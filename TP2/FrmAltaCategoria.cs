@@ -40,7 +40,9 @@ namespace TP2
                     Categoria = new Categoria();
                 }
 
-                //Categoria.Descripcion = txtCategoria.Text;
+                Categoria.Descripcion = txtCategoria.Text;
+
+               
 
                 if (Categoria.Id == 0)
                 {
@@ -85,10 +87,17 @@ namespace TP2
 
         private void FrmAltaCategoria_Load(object sender, EventArgs e)
         {
-            if(Categoria != null)
+            btnAceptar.Enabled = false;
+            if (Categoria != null)
             {
                 txtCategoria.Text = Categoria.Descripcion;
+                btnAceptar.Enabled = true;
             }
+        }
+
+        private void txtCategoria_Leave(object sender, EventArgs e)
+        {
+            btnAceptar.Enabled = !string.IsNullOrWhiteSpace(txtCategoria.Text);
         }
     }
 }
