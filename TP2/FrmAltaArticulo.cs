@@ -5,16 +5,20 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Dominio;
 using Negocio;
+using static System.Net.WebRequestMethods;
 
 namespace Tp2
 {
     public partial class FrmAltaArticulo : Form
     {
         private Articulo articulo = null;
+        private string ImagenDefault = "https://static.vecteezy.com/system/resources/thumbnails/008/695/917/small_2x/no-image-available-icon-simple-two-colors-template-for-no-image-or-picture-coming-soon-and-placeholder-illustration-isolated-on-white-background-vector.jpg";
+        //private string ImagenDefault = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDQQGGvsya8PwOD-0KOh6bClw8zRFxEpUaIWvZawv5IdEHPdLMs6C4DalMrGeinUXpp4I&usqp=CAU";
         public FrmAltaArticulo()
         {
             InitializeComponent();
@@ -53,9 +57,33 @@ namespace Tp2
                 articulo.Precio = decimal.Parse(txtPrecio.Text);
 
                 articulo.UrlImagen = new Imagen();
-                articulo.UrlImagen.ImagenUrl = txtUrlImagen.Text;
+                //articulo.UrlImagen.ImagenUrl = txtUrlImagen.Text;
 
-                if(articulo.Id != 0)
+                /*************************** PRUEBA Ingreso Url Validacion *****************************/
+                string url = txtUrlImagen.Text.Trim(); // Eliminas espacios de la url ingresada
+                string patron = @"^https:\/\/.+"; // Patron a cumplir
+                bool validar = Regex.IsMatch(url, patron, RegexOptions.IgnoreCase);
+
+                if (validar)
+                {
+                    articulo.UrlImagen.ImagenUrl = txtUrlImagen.Text;
+                }
+                else
+                {
+                    DialogResult respuesta = MessageBox.Show("La Url de la imagen ingresada no es valida, se le cargara una imagen por defecto\n ¿Desea continuar?", "Url de imagen invalida", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                    if (respuesta == DialogResult.Yes)
+                    {
+                        articulo.UrlImagen.ImagenUrl = ImagenDefault;
+                    }
+                    else
+                    {
+                        return;
+                    }
+                }
+                /*************************************** TODO ******************************************/
+
+
+                if (articulo.Id != 0)
                 {
                     negocio.modificarArticulo(articulo);
                     MessageBox.Show("Articulo modificado exitosamente");
@@ -140,7 +168,7 @@ namespace Tp2
             catch (Exception)
             {
 
-                pbxArticulo.Load("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDQQGGvsya8PwOD-0KOh6bClw8zRFxEpUaIWvZawv5IdEHPdLMs6C4DalMrGeinUXpp4I&usqp=CAU");
+                pbxArticulo.Load(ImagenDefault);
             }
 
         }
@@ -207,11 +235,13 @@ namespace Tp2
                 && !string.IsNullOrWhiteSpace(txtPrecio.Text)
                 && !string.IsNullOrWhiteSpace(txtUrlImagen.Text))
             {
-                btnAceptar.Enabled = true;
+                lblLeyendaObligatorio.Visible = false;
+                btnAceptar.Enabled = true;//**
             }
             else
             {
-                btnAceptar.Enabled = false;
+                lblLeyendaObligatorio.Visible = true;
+                btnAceptar.Enabled = false;//**
             }
         }
 
