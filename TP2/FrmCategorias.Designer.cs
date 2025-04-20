@@ -74,14 +74,14 @@
             this.dgvCategorias.RowHeadersWidth = 62;
             this.dgvCategorias.RowTemplate.Height = 28;
             this.dgvCategorias.Size = new System.Drawing.Size(272, 122);
-            this.dgvCategorias.TabIndex = 5;
+            this.dgvCategorias.TabIndex = 0;
             // 
             // btnEliminarCategoria
             // 
             this.btnEliminarCategoria.Location = new System.Drawing.Point(233, 274);
             this.btnEliminarCategoria.Name = "btnEliminarCategoria";
             this.btnEliminarCategoria.Size = new System.Drawing.Size(97, 40);
-            this.btnEliminarCategoria.TabIndex = 6;
+            this.btnEliminarCategoria.TabIndex = 3;
             this.btnEliminarCategoria.Text = "Eliminar";
             this.btnEliminarCategoria.UseVisualStyleBackColor = true;
             this.btnEliminarCategoria.Click += new System.EventHandler(this.btnEliminarCategoria_Click);
