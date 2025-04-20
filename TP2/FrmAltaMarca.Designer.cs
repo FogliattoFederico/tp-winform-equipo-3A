@@ -62,7 +62,7 @@
             this.txtMarca.Name = "txtMarca";
             this.txtMarca.Size = new System.Drawing.Size(260, 26);
             this.txtMarca.TabIndex = 2;
-            this.txtMarca.Leave += new System.EventHandler(this.txtMarca_Leave);
+            this.txtMarca.TextChanged += new System.EventHandler(this.txtMarca_TextChanged);
             // 
             // btnAceptar
             // 

@@ -52,7 +52,7 @@
             this.txtCategoria.Name = "txtCategoria";
             this.txtCategoria.Size = new System.Drawing.Size(258, 26);
             this.txtCategoria.TabIndex = 1;
-            this.txtCategoria.Leave += new System.EventHandler(this.txtCategoria_Leave);
+            this.txtCategoria.TextChanged += new System.EventHandler(this.txtCategoria_TextChanged);
             // 
             // label1
             // 
