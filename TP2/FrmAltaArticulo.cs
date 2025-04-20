@@ -22,6 +22,7 @@ namespace Tp2
         public FrmAltaArticulo()
         {
             InitializeComponent();
+           
         }
 
         public FrmAltaArticulo(Articulo articulo)

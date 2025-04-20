@@ -17,7 +17,7 @@ namespace Negocio
             try
             {
 
-                datos.setearConsulta("select c.Id, C.Descripcion from CATEGORIAS C;");
+                datos.setearConsulta("select c.Id, C.Descripcion from CATEGORIAS C order by Descripcion asc");
                 datos.ejecutarLectura();
 
 
@@ -46,7 +46,70 @@ namespace Negocio
             }
         }
 
+        public void AgregarCategoria(Categoria categoria)
+        {
+            AccesoDatos datos = new AccesoDatos();
 
+            try
+            {
+                datos.setearConsulta("insert into CATEGORIAS (Descripcion) values (@Categoria);");
+                datos.setearParametro("@Categoria", categoria.Descripcion);
+                datos.ejecutarAccion();
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+        public void ModificarCategoria(Categoria categoria)
+        {
+            AccesoDatos Datos = new AccesoDatos();
+
+            try
+            {
+                Datos.setearConsulta("update CATEGORIAS set Descripcion = @Descripcion where id = @Id;");
+                Datos.setearParametro("@Id", categoria.Id);
+                Datos.setearParametro("@Descripcion", categoria.Descripcion);
+                Datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                Datos.cerrarConexion();
+            }
+        }
+
+        public void EliminarCategoria(int id)
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearConsulta("delete from CATEGORIAS where id = @Id;");
+                datos.setearParametro("@Id", id);
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
     }
 }
 

@@ -281,6 +281,20 @@ namespace TP2
                 //throw;
             }
         }
+
+        private void TsCategorias_Click(object sender, EventArgs e)
+        {
+            FrmCategorias FrmCategoria = new FrmCategorias();
+            FrmCategoria.ShowDialog();
+            Cargar();
+        }
+
+        private void TsMarcas_Click(object sender, EventArgs e)
+        {
+            FrmMarcas frmMarcas = new FrmMarcas();
+            frmMarcas.ShowDialog(); 
+
+        }
     }
 
     

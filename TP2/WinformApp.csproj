@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}</ProjectGuid>
+    <ProjectGuid>{4B7E711E-BB4D-42E2-8024-7ECFB3A4C6A3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>TP2</RootNamespace>
-    <AssemblyName>TP2</AssemblyName>
+    <RootNamespace>Tp2</RootNamespace>
+    <AssemblyName>Tp2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,23 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmAltaCategoria.cs">
+    <Compile Include="FrmArticulos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmAltaCategoria.Designer.cs">
-      <DependentUpon>FrmAltaCategoria.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmAltaMarca.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmAltaMarca.Designer.cs">
-      <DependentUpon>FrmAltaMarca.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmCategorias.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmCategorias.Designer.cs">
-      <DependentUpon>FrmCategorias.cs</DependentUpon>
+    <Compile Include="FrmArticulos.Designer.cs">
+      <DependentUpon>FrmArticulos.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmAltaArticulo.cs">
       <SubType>Form</SubType>
@@ -70,37 +58,13 @@
     <Compile Include="FrmAltaArticulo.Designer.cs">
       <DependentUpon>FrmAltaArticulo.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmArticulos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmArticulos.Designer.cs">
-      <DependentUpon>FrmArticulos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmMarcas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmMarcas.Designer.cs">
-      <DependentUpon>FrmMarcas.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmAltaCategoria.resx">
-      <DependentUpon>FrmAltaCategoria.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmAltaMarca.resx">
-      <DependentUpon>FrmAltaMarca.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmCategorias.resx">
-      <DependentUpon>FrmCategorias.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FrmAltaArticulo.resx">
       <DependentUpon>FrmAltaArticulo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmArticulos.resx">
       <DependentUpon>FrmArticulos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmMarcas.resx">
-      <DependentUpon>FrmMarcas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -110,7 +74,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -127,25 +90,13 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dominio\Dominio.csproj">
-      <Project>{a279dfb5-8d2c-4f88-bd1c-f8a83774cf67}</Project>
+      <Project>{2cb83fa9-9be2-46f8-9fa8-89c8326a10a0}</Project>
       <Name>Dominio</Name>
     </ProjectReference>
     <ProjectReference Include="..\Negocio\Negocio.csproj">
-      <Project>{26b617cf-bab5-4795-915f-f5883a6009f9}</Project>
+      <Project>{53510058-c4d2-401d-97b9-e20cdce1f689}</Project>
       <Name>Negocio</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-producto-48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-etiqueta-de-precio.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-producto.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-producto-nuevo.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
