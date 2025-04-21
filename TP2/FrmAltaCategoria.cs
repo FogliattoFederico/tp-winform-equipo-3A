@@ -95,7 +95,7 @@ namespace TP2
             }
         }
 
-        private void txtCategoria_Leave(object sender, EventArgs e)
+        private void txtCategoria_TextChanged(object sender, EventArgs e)
         {
             btnAceptar.Enabled = !string.IsNullOrWhiteSpace(txtCategoria.Text);
         }

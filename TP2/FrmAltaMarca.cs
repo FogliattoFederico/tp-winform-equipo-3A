@@ -89,7 +89,7 @@ namespace TP2
             Close();
         }
 
-        private void txtMarca_Leave(object sender, EventArgs e)
+        private void txtMarca_TextChanged(object sender, EventArgs e)
         {
             btnAceptar.Enabled = !string.IsNullOrWhiteSpace(txtMarca.Text);
         }
