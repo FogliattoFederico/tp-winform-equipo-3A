@@ -320,6 +320,13 @@ namespace TP2
                             
                             
         }
+
+        private void iMAGENESToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmImagen frmImagenes = new FrmImagen();
+            frmImagenes.ShowDialog();
+            Cargar();
+        }
     }
 
     
