@@ -30,7 +30,7 @@ namespace TP2
         private void FrmAltaImagen_Load(object sender, EventArgs e)
         {
             btnAceptar.Enabled = false;
-            if (imagen != null)
+            if (imagen != null)                 
             {
                 txtUrlImagen.Text = imagen.ImagenUrl;
                 txtIdArticulo.Text = imagen.IdArticulo.ToString();
@@ -56,6 +56,20 @@ namespace TP2
 
                 if (imagen.Id == 0)
                 {
+                    List<Articulo> listaArticulos;
+                    ArticuloNegocio negocioArticulos = new ArticuloNegocio();
+
+                    listaArticulos = negocioArticulos.Listar();
+
+                    bool ExisteArticulo = listaArticulos.Any(a => a.Id == imagen.IdArticulo);
+
+                    if(!ExisteArticulo)
+                    {
+                        MessageBox.Show("El artículo no existe", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                    }
+
+
                     imagen.ImagenUrl = txtUrlImagen.Text.Trim();
 
                     List<Imagen> imagenes = negocio.Listar();
