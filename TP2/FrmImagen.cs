@@ -16,6 +16,7 @@ namespace TP2
     {
         private List<Imagen> ListaImagen;
         private List<Articulo> ListaArticulos;
+        private bool sincronizandoSeleccion = false;
 
         public FrmImagen()
         {
@@ -105,12 +106,41 @@ namespace TP2
 
         private void dgvImagenes_SelectionChanged(object sender, EventArgs e)
         {
-            if (dgvImagenes.CurrentRow != null)
+            if (sincronizandoSeleccion) return;
+            sincronizandoSeleccion = true;
+
+            if (dgvArticulos.CurrentRow != null && dgvArticulos.CurrentRow.DataBoundItem != null)
             {
-                Imagen seleccionado = (Imagen)dgvImagenes.CurrentRow.DataBoundItem;
-                //pbxImagen.Load(seleccionado.ImagenUrl.ToString());
-                cargarImagen(seleccionado.ImagenUrl.ToString());
+                Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+
+                if (seleccionado.UrlImagen != null)
+                {
+                    string urlSeleccionada = seleccionado.UrlImagen.ImagenUrl;
+
+                    foreach (DataGridViewRow fila in dgvImagenes.Rows)
+                    {
+                        Imagen imagen = fila.DataBoundItem as Imagen;
+                        if (imagen != null && imagen.ImagenUrl == urlSeleccionada)
+                        {
+                            fila.Selected = true;
+
+                            foreach (DataGridViewCell celda in fila.Cells)
+                            {
+                                if (celda.Visible)
+                                {
+                                    dgvImagenes.CurrentCell = celda;
+                                    break;
+                                }
+                            }
+
+                            break;
+                        }
+                    }
+                    cargarImagen(urlSeleccionada);
+                }
             }
+
+            sincronizandoSeleccion = false;
         }
 
         private void cargarImagen(string imagen)
@@ -126,9 +156,43 @@ namespace TP2
             }
         }
 
-        private void dgvArticulos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dgvArticulos_SelectionChanged(object sender, EventArgs e)
         {
+            if (sincronizandoSeleccion) return;
+            sincronizandoSeleccion = true;
 
+            if (dgvArticulos.CurrentRow != null && dgvArticulos.CurrentRow.DataBoundItem != null)
+            {
+                Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+
+                if (seleccionado.UrlImagen != null)
+                {
+                    string urlSeleccionada = seleccionado.UrlImagen.ImagenUrl;
+
+                    foreach (DataGridViewRow fila in dgvImagenes.Rows)
+                    {
+                        Imagen imagen = fila.DataBoundItem as Imagen;
+                        if (imagen != null && imagen.ImagenUrl == urlSeleccionada)
+                        {
+                            fila.Selected = true;
+
+                            foreach (DataGridViewCell celda in fila.Cells)
+                            {
+                                if (celda.Visible)
+                                {
+                                    dgvImagenes.CurrentCell = celda;
+                                    break;
+                                }
+                            }
+
+                            break;
+                        }
+                    }
+                    cargarImagen(urlSeleccionada);
+                }
+            }
+
+            sincronizandoSeleccion = false;
         }
     }
 }

@@ -45,17 +45,19 @@
             // 
             this.lblImagen.AutoSize = true;
             this.lblImagen.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblImagen.Location = new System.Drawing.Point(631, 26);
+            this.lblImagen.Location = new System.Drawing.Point(421, 17);
+            this.lblImagen.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblImagen.Name = "lblImagen";
-            this.lblImagen.Size = new System.Drawing.Size(174, 40);
+            this.lblImagen.Size = new System.Drawing.Size(119, 29);
             this.lblImagen.TabIndex = 18;
             this.lblImagen.Text = "Imagenes";
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(592, 344);
+            this.btnEliminar.Location = new System.Drawing.Point(395, 224);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(99, 38);
+            this.btnEliminar.Size = new System.Drawing.Size(66, 25);
             this.btnEliminar.TabIndex = 17;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
@@ -63,9 +65,10 @@
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(496, 344);
+            this.btnModificar.Location = new System.Drawing.Point(331, 224);
+            this.btnModificar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(90, 38);
+            this.btnModificar.Size = new System.Drawing.Size(60, 25);
             this.btnModificar.TabIndex = 16;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
@@ -73,9 +76,10 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(397, 344);
+            this.btnAgregar.Location = new System.Drawing.Point(265, 224);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(93, 38);
+            this.btnAgregar.Size = new System.Drawing.Size(62, 25);
             this.btnAgregar.TabIndex = 15;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -84,21 +88,21 @@
             // dgvImagenes
             // 
             this.dgvImagenes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvImagenes.Location = new System.Drawing.Point(399, 97);
+            this.dgvImagenes.Location = new System.Drawing.Point(266, 63);
+            this.dgvImagenes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvImagenes.Name = "dgvImagenes";
             this.dgvImagenes.RowHeadersWidth = 62;
             this.dgvImagenes.RowTemplate.Height = 28;
             this.dgvImagenes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvImagenes.Size = new System.Drawing.Size(650, 231);
+            this.dgvImagenes.Size = new System.Drawing.Size(433, 150);
             this.dgvImagenes.TabIndex = 14;
             this.dgvImagenes.SelectionChanged += new System.EventHandler(this.dgvImagenes_SelectionChanged);
             // 
             // pbxImagen
             // 
-            this.pbxImagen.Location = new System.Drawing.Point(1067, 97);
-            this.pbxImagen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pbxImagen.Location = new System.Drawing.Point(711, 63);
             this.pbxImagen.Name = "pbxImagen";
-            this.pbxImagen.Size = new System.Drawing.Size(225, 231);
+            this.pbxImagen.Size = new System.Drawing.Size(150, 150);
             this.pbxImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbxImagen.TabIndex = 19;
             this.pbxImagen.TabStop = false;
@@ -106,29 +110,31 @@
             // dgvArticulos
             // 
             this.dgvArticulos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvArticulos.Location = new System.Drawing.Point(28, 97);
+            this.dgvArticulos.Location = new System.Drawing.Point(19, 63);
+            this.dgvArticulos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvArticulos.Name = "dgvArticulos";
             this.dgvArticulos.RowHeadersWidth = 62;
             this.dgvArticulos.RowTemplate.Height = 28;
-            this.dgvArticulos.Size = new System.Drawing.Size(346, 231);
+            this.dgvArticulos.Size = new System.Drawing.Size(231, 150);
             this.dgvArticulos.TabIndex = 20;
-            this.dgvArticulos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvArticulos_CellContentClick);
+            this.dgvArticulos.SelectionChanged += new System.EventHandler(this.dgvArticulos_SelectionChanged);
             // 
             // lblArticulo
             // 
             this.lblArticulo.AutoSize = true;
             this.lblArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblArticulo.Location = new System.Drawing.Point(118, 26);
+            this.lblArticulo.Location = new System.Drawing.Point(79, 17);
+            this.lblArticulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblArticulo.Name = "lblArticulo";
-            this.lblArticulo.Size = new System.Drawing.Size(155, 40);
+            this.lblArticulo.Size = new System.Drawing.Size(105, 29);
             this.lblArticulo.TabIndex = 21;
             this.lblArticulo.Text = "Articulos";
             // 
             // FrmImagen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1316, 415);
+            this.ClientSize = new System.Drawing.Size(877, 270);
             this.Controls.Add(this.lblArticulo);
             this.Controls.Add(this.dgvArticulos);
             this.Controls.Add(this.pbxImagen);
@@ -137,7 +143,6 @@
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dgvImagenes);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmImagen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Imagenes";

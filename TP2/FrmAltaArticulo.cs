@@ -133,9 +133,7 @@ namespace Tp2
                     txtCodigo.Text = articulo.Codigo;
                     txtNombre.Text = articulo.Nombre;
                     txtDescripcion.Text = articulo.Descripcion;
-                    //TODO
-                    /************** PRUEBAS Validacion *****************************/
-                    if (articulo.Categoria == null || articulo.Categoria.Id == 0)
+                    if (articulo.Categoria == null || articulo.Categoria.Id == 0) // Validacion Categoria
                     {
                         MessageBox.Show("Este articulo no posee categoria. Por favor corrija campos segun corresponda");
                     }
@@ -143,8 +141,6 @@ namespace Tp2
                     {
                         cbxCategoria.SelectedValue = articulo.Categoria.Id;
                     }
-                    /**************************************************************/                    
-                    //cbxCategoria.SelectedValue = articulo.Categoria.Id;
                     cbxMarca.SelectedValue = articulo.Marca.Id;
                     txtPrecio.Text = articulo.Precio.ToString();
                     txtUrlImagen.Text = articulo.UrlImagen.ImagenUrl;
@@ -179,53 +175,6 @@ namespace Tp2
             if ((e.KeyChar < 48 || e.KeyChar > 59) && e.KeyChar != 8)
                 e.Handled = true;
         }
-
-        /*
-        private void txtUrlImagen_Leave(object sender, EventArgs e)
-        {
-            cargarImagen(txtUrlImagen.Text);
-            ValidarCampo(txtUrlImagen);
-        }
-
-        private void txtCodigo_Leave(object sender, EventArgs e)
-        {
-            ValidarCampo(txtCodigo);
-
-        }
-
-        private void ValidarCampo(TextBox campo)
-        {
-            
-
-            if (campo.Text.Trim() == "")
-            {
-
-                campo.BackColor = Color.Red;
-                
-            }
-            else
-            {
-                campo.BackColor = System.Drawing.SystemColors.Control;
-                
-
-            }
-        }
-
-        private void txtNombre_Leave(object sender, EventArgs e)
-        {
-            ValidarCampo(txtNombre);
-        }
-
-        private void txtDescripcion_Leave(object sender, EventArgs e)
-        {
-            ValidarCampo(txtDescripcion);
-        }
-
-        private void txtPrecio_Leave(object sender, EventArgs e)
-        {
-            ValidarCampo(txtPrecio);
-        }
-        */
 
         // Metodo controla que los campos esten llenos para habilitar boton ACEPTAR
         private void controlAceptar()
