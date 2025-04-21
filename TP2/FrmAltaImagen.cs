@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Dominio;
@@ -54,6 +55,8 @@ namespace TP2
 
                 imagen.IdArticulo = int.Parse(txtIdArticulo.Text);
                 imagen.ImagenUrl = txtUrlImagen.Text;
+                string patron = @"^https:\/\/.+"; // Patron a cumplir
+                bool validar = Regex.IsMatch(imagen.ImagenUrl, patron, RegexOptions.IgnoreCase);
 
                 if (imagen.Id == 0)
                 {
@@ -83,6 +86,11 @@ namespace TP2
                     }
                     else
                     {
+                        if (!validar)
+                        {
+                            MessageBox.Show("La Url de la imagen ingresada no es valida. Ingresela nuevamente.", "Url Invalida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            return;
+                        }
                         negocio.Agregar(imagen);
                         MessageBox.Show("Agregado exitosamente");
                         Close();
@@ -90,6 +98,11 @@ namespace TP2
                 }
                 else
                 {
+                    if (!validar)
+                    {
+                        MessageBox.Show("La Url de la imagen ingresada no es valida. Ingresela nuevamente.", "Url Invalida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                    }
                     negocio.ModificarImagen(imagen);
                     MessageBox.Show("Imagen modificada exitosamente");
                     Close();

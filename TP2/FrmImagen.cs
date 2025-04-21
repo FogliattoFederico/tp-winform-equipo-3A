@@ -26,7 +26,9 @@ namespace TP2
         private void Cargar()
         {
             ImagenNegocio negocio = new ImagenNegocio();
-            ListaImagen = negocio.Listar();
+            ListaImagen = negocio.Listar()
+                         .OrderBy(img => img.IdArticulo) // Ordeno lista dgvImagenes por IdArticulo
+                         .ToList();
             dgvImagenes.DataSource = ListaImagen;
             dgvImagenes.Columns["ImagenUrl"].Width = 280;
             dgvImagenes.Columns["IdArticulo"].Width = 70;
@@ -34,7 +36,9 @@ namespace TP2
             pbxImagen.Load(ListaImagen[0].ImagenUrl.ToString());
 
             ArticuloNegocio articuloNegocio = new ArticuloNegocio();
-            ListaArticulos = articuloNegocio.Listar();
+            ListaArticulos = articuloNegocio.Listar()
+                                    .OrderBy(a => a.Id) // Ordeno lista dgvArticulos por id
+                                    .ToList();
             dgvArticulos.DataSource = ListaArticulos;
             dgvArticulos.Columns["Id"].Width = 50;
             dgvArticulos.Columns["Codigo"].Visible = false;
