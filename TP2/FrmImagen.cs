@@ -109,18 +109,18 @@ namespace TP2
             if (sincronizandoSeleccion) return;
             sincronizandoSeleccion = true;
 
-            if (dgvArticulos.CurrentRow != null && dgvArticulos.CurrentRow.DataBoundItem != null)
+            if (dgvImagenes.CurrentRow != null && dgvImagenes.CurrentRow.DataBoundItem != null)
             {
-                Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+                Imagen seleccionada = (Imagen)dgvImagenes.CurrentRow.DataBoundItem;
 
-                if (seleccionado.UrlImagen != null)
+                if (seleccionada.ImagenUrl != null)
                 {
-                    string urlSeleccionada = seleccionado.UrlImagen.ImagenUrl;
+                    string urlSeleccionada = seleccionada.ImagenUrl;
 
-                    foreach (DataGridViewRow fila in dgvImagenes.Rows)
+                    foreach (DataGridViewRow fila in dgvArticulos.Rows)
                     {
-                        Imagen imagen = fila.DataBoundItem as Imagen;
-                        if (imagen != null && imagen.ImagenUrl == urlSeleccionada)
+                        Articulo articulo = fila.DataBoundItem as Articulo;
+                        if (articulo != null && articulo.UrlImagen != null && articulo.UrlImagen.ImagenUrl == urlSeleccionada)
                         {
                             fila.Selected = true;
 
@@ -128,7 +128,7 @@ namespace TP2
                             {
                                 if (celda.Visible)
                                 {
-                                    dgvImagenes.CurrentCell = celda;
+                                    dgvArticulos.CurrentCell = celda;
                                     break;
                                 }
                             }
@@ -136,12 +136,14 @@ namespace TP2
                             break;
                         }
                     }
+
                     cargarImagen(urlSeleccionada);
                 }
             }
 
             sincronizandoSeleccion = false;
         }
+
 
         private void cargarImagen(string imagen)
         {

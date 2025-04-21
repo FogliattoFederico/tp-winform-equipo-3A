@@ -36,6 +36,7 @@ namespace TP2
                 txtIdArticulo.Text = imagen.IdArticulo.ToString();
                 btnAceptar.Enabled = true;
                 cargarImagen(imagen.ImagenUrl.ToString());
+                txtIdArticulo.Enabled = false;
             }
             
         }
