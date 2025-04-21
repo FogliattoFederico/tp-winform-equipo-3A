@@ -23,7 +23,7 @@ namespace Negocio
                 conexion.ConnectionString = "server = .\\SQLEXPRESS; database= CATALOGO_P3_DB; integrated security = true";
                 comando.CommandType = System.Data.CommandType.Text;
                 //comando.CommandText = "select\r\n\tA.Id,\r\n\tA.nombre,\r\n\tA.codigo,\r\n\tA.descripcion,\r\n\tM.Descripcion as Marca,\r\n\tC.Descripcion as Categoria,\r\n\tA.Precio,\r\n\tI.ImagenUrl\r\nFROM\t\r\n\tARTICULOS A\r\ninner JOIN\r\n\tMARCAS M ON A.IdMarca = M.Id\r\nleft JOIN\r\n\tCATEGORIAS C on A.IdCategoria = C.Id\r\ninner join\r\n\tIMAGENES I on A.Id = I.IdArticulo";
-                comando.CommandText = "select A.Id,A.nombre, A.codigo, A.descripcion, A.IdCategoria, A.IdMarca, M.Descripcion as Marca, C.Descripcion as Categoria, A.Precio, I.ImagenUrl FROM ARTICULOS A INNER JOIN MARCAS M ON A.IdMarca = M.Id  LEFT JOIN CATEGORIAS C ON A.IdCategoria = C.Id INNER JOIN IMAGENES I ON A.Id = I.IdArticulo";
+                comando.CommandText = "select A.Id,A.nombre, A.codigo, A.descripcion, A.IdCategoria, A.IdMarca, M.Descripcion as Marca, C.Descripcion as Categoria, A.Precio, I.ImagenUrl FROM ARTICULOS A INNER JOIN MARCAS M ON A.IdMarca = M.Id  LEFT JOIN CATEGORIAS C ON A.IdCategoria = C.Id INNER JOIN IMAGENES I ON A.Id = I.IdArticulo order by Nombre ASC";
                 comando.Connection = conexion;
 
                 conexion.Open();
@@ -290,6 +290,8 @@ namespace Negocio
                 throw ex;
             }
         }
+
+        
 
     }
 }

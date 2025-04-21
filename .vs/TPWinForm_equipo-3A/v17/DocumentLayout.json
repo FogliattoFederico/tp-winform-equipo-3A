@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|c:\\users\\fedef\\documents\\github\\tp-winform-equipo-3a\\tp2\\frmaltaimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmaltaimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|c:\\users\\fedef\\documents\\github\\tp-winform-equipo-3a\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B617CF-BAB5-4795-915F-F5883A6009F9}|Negocio\\Negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\tp2\\frmimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\tp2\\frmaltaimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmaltaimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|c:\\users\\fedef\\documents\\github\\tp-winform-equipo-3a\\tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\tp2\\frmimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|c:\\users\\fedef\\documents\\github\\tp-winform-equipo-3a\\tp2\\frmaltaimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|solutionrelative:tp2\\frmaltaimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|c:\\users\\fedef\\documents\\github\\tp-winform-equipo-3a\\dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A279DFB5-8D2C-4F88-BD1C-F8A83774CF67}|Dominio\\Dominio.csproj|solutionrelative:dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54A3E196-0D0C-46D0-94C4-7CA5A96D88A5}|TP2\\WinForm App.csproj|c:\\users\\fedef\\documents\\github\\tp-winform-equipo-3a\\tp2\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArticuloNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\Negocio\\ArticuloNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\ArticuloNegocio.cs",
+              "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\Negocio\\ArticuloNegocio.cs",
+              "RelativeToolTip": "Negocio\\ArticuloNegocio.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAABjAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T11:04:20.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmAltaImagen.cs",
+              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmAltaImagen.cs",
+              "RelativeDocumentMoniker": "TP2\\FrmAltaImagen.cs",
+              "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmAltaImagen.cs",
+              "RelativeToolTip": "TP2\\FrmAltaImagen.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAA4wIcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T10:58:42.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FrmAltaImagen.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmAltaImagen.cs",
+              "RelativeDocumentMoniker": "TP2\\FrmAltaImagen.cs",
+              "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmAltaImagen.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TP2\\FrmAltaImagen.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T10:58:41.266Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmImagen.cs",
+              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmImagen.cs",
+              "RelativeDocumentMoniker": "TP2\\FrmImagen.cs",
+              "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmImagen.cs",
+              "RelativeToolTip": "TP2\\FrmImagen.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAzwCUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T23:53:51.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FrmImagen.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmImagen.cs",
               "RelativeDocumentMoniker": "TP2\\FrmImagen.cs",
@@ -51,19 +102,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T23:53:48.147Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Imagen.cs",
-              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\Dominio\\Imagen.cs",
-              "RelativeDocumentMoniker": "Dominio\\Imagen.cs",
-              "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\Dominio\\Imagen.cs",
-              "RelativeToolTip": "Dominio\\Imagen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T10:53:00.245Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -77,43 +115,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T10:44:06.771Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmArticulos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmArticulos.cs",
-              "RelativeDocumentMoniker": "TP2\\FrmArticulos.cs",
-              "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmArticulos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TP2\\FrmArticulos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T10:44:04.837Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmAltaImagen.cs",
-              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmAltaImagen.cs",
-              "RelativeDocumentMoniker": "TP2\\FrmAltaImagen.cs",
-              "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmAltaImagen.cs",
-              "RelativeToolTip": "TP2\\FrmAltaImagen.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAIwD8AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T10:42:57.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmAltaImagen.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmAltaImagen.cs",
-              "RelativeDocumentMoniker": "TP2\\FrmAltaImagen.cs",
-              "ToolTip": "C:\\Users\\fedef\\Documents\\GitHub\\tp-winform-equipo-3A\\TP2\\FrmAltaImagen.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TP2\\FrmAltaImagen.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T23:56:37.93Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
