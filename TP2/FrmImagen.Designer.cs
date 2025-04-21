@@ -42,19 +42,17 @@
             // 
             this.lblImagen.AutoSize = true;
             this.lblImagen.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblImagen.Location = new System.Drawing.Point(246, 10);
-            this.lblImagen.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblImagen.Location = new System.Drawing.Point(273, 23);
             this.lblImagen.Name = "lblImagen";
-            this.lblImagen.Size = new System.Drawing.Size(93, 29);
+            this.lblImagen.Size = new System.Drawing.Size(136, 40);
             this.lblImagen.TabIndex = 18;
             this.lblImagen.Text = "Imagen";
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(251, 217);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnEliminar.Location = new System.Drawing.Point(376, 334);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(66, 25);
+            this.btnEliminar.Size = new System.Drawing.Size(99, 38);
             this.btnEliminar.TabIndex = 17;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
@@ -62,10 +60,9 @@
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(187, 217);
-            this.btnModificar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnModificar.Location = new System.Drawing.Point(280, 334);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(60, 25);
+            this.btnModificar.Size = new System.Drawing.Size(90, 38);
             this.btnModificar.TabIndex = 16;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
@@ -73,10 +70,9 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(121, 217);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAgregar.Location = new System.Drawing.Point(182, 334);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(62, 25);
+            this.btnAgregar.Size = new System.Drawing.Size(93, 38);
             this.btnAgregar.TabIndex = 15;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -85,36 +81,37 @@
             // dgvImagenes
             // 
             this.dgvImagenes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvImagenes.Location = new System.Drawing.Point(11, 59);
-            this.dgvImagenes.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvImagenes.Location = new System.Drawing.Point(16, 91);
             this.dgvImagenes.Name = "dgvImagenes";
             this.dgvImagenes.RowHeadersWidth = 62;
             this.dgvImagenes.RowTemplate.Height = 28;
             this.dgvImagenes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvImagenes.Size = new System.Drawing.Size(433, 150);
+            this.dgvImagenes.Size = new System.Drawing.Size(650, 231);
             this.dgvImagenes.TabIndex = 14;
             this.dgvImagenes.SelectionChanged += new System.EventHandler(this.dgvImagenes_SelectionChanged);
             // 
             // pbxImagen
             // 
-            this.pbxImagen.Location = new System.Drawing.Point(465, 59);
+            this.pbxImagen.Location = new System.Drawing.Point(698, 91);
+            this.pbxImagen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pbxImagen.Name = "pbxImagen";
-            this.pbxImagen.Size = new System.Drawing.Size(150, 150);
+            this.pbxImagen.Size = new System.Drawing.Size(225, 231);
             this.pbxImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbxImagen.TabIndex = 19;
             this.pbxImagen.TabStop = false;
             // 
             // FrmImagen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(635, 252);
+            this.ClientSize = new System.Drawing.Size(952, 388);
             this.Controls.Add(this.pbxImagen);
             this.Controls.Add(this.lblImagen);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dgvImagenes);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmImagen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmImagen";
